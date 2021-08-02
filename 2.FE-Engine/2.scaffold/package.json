@@ -1,8 +1,11 @@
 {
-  "name": "脚手架公工具",
+  "name": "scaffold",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test-self": "mkdir 3.test-generator-self && cd 3.test-generator-self && yo self"
+  },
   "devDependencies": {
     "yeoman-generator": "^5.4.0"
   }
